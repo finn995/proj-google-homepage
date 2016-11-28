@@ -1,0 +1,7 @@
+#header li
+{
+	display: inline;
+	position: relative;
+	left: 1200px;
+	margin-right: 5px;
+}

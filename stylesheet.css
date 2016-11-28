@@ -4,6 +4,7 @@
 	position: relative;
 	left: 1200px;
 	margin-right: 5px;
+	float: top;            /*doesnt work , why ?!!*/
 }
 
 #logo
@@ -16,7 +17,7 @@
 #s_b
 {
 	position: absolute;
-	margin-bottom: px;
+	margin-bottom: px;    /*doesnt work , why ?!!*/
 }
 
 #search_form
@@ -24,4 +25,31 @@
 	position: relative;
 	left: 600px;
 	top: 170px;
+}
+
+#footer
+{
+	width: 1350px;
+	height: 35px;
+	background-color: #D7F2FD;
+	position: relative;
+	float: bottom;               /*doesnt work , why ?!!*/
+	clear-moz-appearance: both; /*doesnt work , why ?!!*/
+	top: 380px;
+}
+
+#footer li
+{
+	display: inline;
+	margin-right: 5px;
+	margin-top: 0;       /*doesnt work , why ?!!*/
+	margin-bottom: 3px; /*doesnt work , why ?!!*/
+}
+#fleft
+{
+	float: left;
+}
+#fright
+{
+	float: right;
 }
